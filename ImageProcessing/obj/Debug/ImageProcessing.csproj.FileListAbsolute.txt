@@ -1,0 +1,10 @@
+E:\3rd year 1st sem\CS345F2-(2425) Intelligent Systems 1\Image_processing\ImageProcessing\bin\Debug\ImageProcessing.exe.config
+E:\3rd year 1st sem\CS345F2-(2425) Intelligent Systems 1\Image_processing\ImageProcessing\bin\Debug\ImageProcessing.exe
+E:\3rd year 1st sem\CS345F2-(2425) Intelligent Systems 1\Image_processing\ImageProcessing\bin\Debug\ImageProcessing.pdb
+E:\3rd year 1st sem\CS345F2-(2425) Intelligent Systems 1\Image_processing\ImageProcessing\obj\Debug\ImageProcessing.csproj.AssemblyReference.cache
+E:\3rd year 1st sem\CS345F2-(2425) Intelligent Systems 1\Image_processing\ImageProcessing\obj\Debug\ImageProcessing.Form1.resources
+E:\3rd year 1st sem\CS345F2-(2425) Intelligent Systems 1\Image_processing\ImageProcessing\obj\Debug\ImageProcessing.Properties.Resources.resources
+E:\3rd year 1st sem\CS345F2-(2425) Intelligent Systems 1\Image_processing\ImageProcessing\obj\Debug\ImageProcessing.csproj.GenerateResource.cache
+E:\3rd year 1st sem\CS345F2-(2425) Intelligent Systems 1\Image_processing\ImageProcessing\obj\Debug\ImageProcessing.csproj.CoreCompileInputs.cache
+E:\3rd year 1st sem\CS345F2-(2425) Intelligent Systems 1\Image_processing\ImageProcessing\obj\Debug\ImageProcessing.exe
+E:\3rd year 1st sem\CS345F2-(2425) Intelligent Systems 1\Image_processing\ImageProcessing\obj\Debug\ImageProcessing.pdb
