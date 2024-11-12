@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ImageProcess2;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -318,6 +319,50 @@ namespace ImageProcessing
             webcamMode = "Inversion";
         }
 
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void convuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void smoothingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.Smooth(processed, 50);
+            pictureBox2.Image = processed;
+        }
+
+        private void gaussianBLurToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.GaussianBlur(processed, 300);
+            pictureBox2.Image = processed;
+        }
+
+        private void sharpenToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.Sharpen(processed, 11);
+            pictureBox2.Image = processed;
+        }
+
+        private void meanRemovalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.Sharpen(processed, 9);
+            pictureBox2.Image = processed; 
+        }
+
+        private void embossLaplascianToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.EmbossLaplacian(processed);
+            pictureBox2.Image = processed;
+        }
 
         private void mirrorHorizontalToolStripMenuItem1_Click(object sender, EventArgs e)
         {

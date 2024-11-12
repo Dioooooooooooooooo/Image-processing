@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|e:\\3rd year 1st sem\\cs345f2-(2425) intelligent systems 1\\image_processing\\imageprocessing\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|e:\\3rd year 1st sem\\cs345f2-(2425) intelligent systems 1\\image_processing\\imageprocessing\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|e:\\3rd year 1st sem\\cs345f2-(2425) intelligent systems 1\\image_processing\\imageprocessing\\dip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|solutionrelative:dip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\citdipfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|solutionrelative:citdipfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,6 +25,34 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAEYBAAAAAAAAAAAAAFgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T07:31:29.598Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CITDIPFILTER.cs",
+              "DocumentMoniker": "E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\CITDIPFILTER.cs",
+              "RelativeDocumentMoniker": "CITDIPFILTER.cs",
+              "ToolTip": "E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\CITDIPFILTER.cs",
+              "RelativeToolTip": "CITDIPFILTER.cs",
+              "ViewState": "AgIAAJgBAAAAAAAAAAAIwKoBAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T05:58:08.022Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
@@ -34,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -43,32 +71,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T06:08:26.327Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DIP.cs",
-              "DocumentMoniker": "E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\DIP.cs",
-              "RelativeDocumentMoniker": "DIP.cs",
-              "ToolTip": "E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\DIP.cs",
-              "RelativeToolTip": "DIP.cs",
-              "ViewState": "AgIAALMAAAAAAAAAAAAMwLwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T05:34:03.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAANEAAAAAAAAAAAAUwN8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T07:31:29.598Z",
-              "EditorCaption": ""
             }
           ]
         }
