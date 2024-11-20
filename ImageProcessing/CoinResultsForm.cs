@@ -27,7 +27,6 @@ namespace ImageProcessing
             this.MaximizeBox = false;
             this.MinimizeBox = false;
 
-            // Create TableLayoutPanel for organization
             TableLayoutPanel tableLayout = new TableLayoutPanel
             {
                 Dock = DockStyle.Fill,
@@ -36,7 +35,6 @@ namespace ImageProcessing
                 Padding = new Padding(10)
             };
 
-            // Add labels and values
             AddRow(tableLayout, "5 Centavo:", 0);
             AddRow(tableLayout, "10 Centavo:", 1);
             AddRow(tableLayout, "25 Centavo:", 2);
@@ -44,7 +42,6 @@ namespace ImageProcessing
             AddRow(tableLayout, "5 Peso:", 4);
             AddRow(tableLayout, "Total Coins: ", 5, true);
 
-            // Add OK button
             Button okButton = new Button
             {
                 Text = "OK",

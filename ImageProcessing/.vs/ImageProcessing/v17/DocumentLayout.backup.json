@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|e:\\3rd year 1st sem\\cs345f2-(2425) intelligent systems 1\\image_processing\\imageprocessing\\coinresultsform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|solutionrelative:coinresultsform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\dip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|solutionrelative:dip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\coindetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|solutionrelative:coindetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\dip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|solutionrelative:dip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|e:\\3rd year 1st sem\\cs345f2-(2425) intelligent systems 1\\image_processing\\imageprocessing\\coinresultsform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60B1E95F-EFA1-49E0-977A-607B7744F843}|ImageProcessing.csproj|solutionrelative:coinresultsform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAGcBAAAAAAAAAAAAAH0BAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAACsBAAAAAAAAAAAuwHoBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T07:31:29.598Z",
               "IsPinned": true,
@@ -44,13 +44,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "DIP.cs",
               "DocumentMoniker": "E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\DIP.cs",
               "RelativeDocumentMoniker": "DIP.cs",
               "ToolTip": "E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\DIP.cs",
               "RelativeToolTip": "DIP.cs",
-              "ViewState": "AgIAAHwBAAAAAAAAAAD4v3kBAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAKsBAAAAAAAAAAAWwHkBAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T04:27:05.871Z",
               "IsPinned": true,
@@ -66,13 +66,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CoinResultsForm .cs",
               "DocumentMoniker": "E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\CoinResultsForm .cs",
               "RelativeDocumentMoniker": "CoinResultsForm .cs",
               "ToolTip": "E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\CoinResultsForm .cs",
               "RelativeToolTip": "CoinResultsForm .cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAhwGMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAhwGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T06:53:28.929Z",
               "EditorCaption": ""
@@ -85,7 +85,7 @@
               "RelativeDocumentMoniker": "CoinDetector.cs",
               "ToolTip": "E:\\3rd year 1st sem\\CS345F2-(2425) Intelligent Systems 1\\Image_processing\\ImageProcessing\\CoinDetector.cs",
               "RelativeToolTip": "CoinDetector.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAADsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T12:04:10.743Z",
               "EditorCaption": ""

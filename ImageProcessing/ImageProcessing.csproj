@@ -59,11 +59,11 @@
   <ItemGroup>
     <Compile Include="CITDIPFILTER.cs" />
     <Compile Include="CoinDetector.cs" />
-    <Compile Include="CoinResultsForm .cs">
+    <Compile Include="CoinResultsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CoinResultsForm .Designer.cs">
-      <DependentUpon>CoinResultsForm .cs</DependentUpon>
+    <Compile Include="CoinResultsForm.Designer.cs">
+      <DependentUpon>CoinResultsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="DIP.cs" />
     <Compile Include="Form1.cs">
