@@ -54,6 +54,7 @@
             this.smoothingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gaussianBLurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sharpenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.meanRemovalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.embossingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.embossLaplascianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.horzVerticalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -61,6 +62,7 @@
             this.lossyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.horizontalOnlyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verticalOnlyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.coinsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -71,7 +73,6 @@
             this.button3 = new System.Windows.Forms.Button();
             this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
             this.openFileDialog3 = new System.Windows.Forms.OpenFileDialog();
-            this.meanRemovalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -87,7 +88,8 @@
             this.webcamToolStripMenuItem,
             this.toolStripMenuItem1,
             this.dIPWebcamToolStripMenuItem,
-            this.convolutionMatrixToolStripMenuItem});
+            this.convolutionMatrixToolStripMenuItem,
+            this.coinsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(3, 1, 0, 1);
@@ -271,23 +273,30 @@
             // smoothingToolStripMenuItem
             // 
             this.smoothingToolStripMenuItem.Name = "smoothingToolStripMenuItem";
-            this.smoothingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.smoothingToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.smoothingToolStripMenuItem.Text = "Smoothing";
             this.smoothingToolStripMenuItem.Click += new System.EventHandler(this.smoothingToolStripMenuItem_Click);
             // 
             // gaussianBLurToolStripMenuItem
             // 
             this.gaussianBLurToolStripMenuItem.Name = "gaussianBLurToolStripMenuItem";
-            this.gaussianBLurToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.gaussianBLurToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.gaussianBLurToolStripMenuItem.Text = "Gaussian BLur";
             this.gaussianBLurToolStripMenuItem.Click += new System.EventHandler(this.gaussianBLurToolStripMenuItem_Click);
             // 
             // sharpenToolStripMenuItem
             // 
             this.sharpenToolStripMenuItem.Name = "sharpenToolStripMenuItem";
-            this.sharpenToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sharpenToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.sharpenToolStripMenuItem.Text = "Sharpen";
             this.sharpenToolStripMenuItem.Click += new System.EventHandler(this.sharpenToolStripMenuItem_Click_1);
+            // 
+            // meanRemovalToolStripMenuItem
+            // 
+            this.meanRemovalToolStripMenuItem.Name = "meanRemovalToolStripMenuItem";
+            this.meanRemovalToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.meanRemovalToolStripMenuItem.Text = "Mean Removal";
+            this.meanRemovalToolStripMenuItem.Click += new System.EventHandler(this.meanRemovalToolStripMenuItem_Click);
             // 
             // embossingToolStripMenuItem
             // 
@@ -299,45 +308,52 @@
             this.horizontalOnlyToolStripMenuItem,
             this.verticalOnlyToolStripMenuItem});
             this.embossingToolStripMenuItem.Name = "embossingToolStripMenuItem";
-            this.embossingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.embossingToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.embossingToolStripMenuItem.Text = "Embossing";
             // 
             // embossLaplascianToolStripMenuItem
             // 
             this.embossLaplascianToolStripMenuItem.Name = "embossLaplascianToolStripMenuItem";
-            this.embossLaplascianToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.embossLaplascianToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.embossLaplascianToolStripMenuItem.Text = "Emboss Laplascian";
             this.embossLaplascianToolStripMenuItem.Click += new System.EventHandler(this.embossLaplascianToolStripMenuItem_Click);
             // 
             // horzVerticalToolStripMenuItem
             // 
             this.horzVerticalToolStripMenuItem.Name = "horzVerticalToolStripMenuItem";
-            this.horzVerticalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.horzVerticalToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.horzVerticalToolStripMenuItem.Text = "Horz/Vertical";
             // 
             // allDirectionsToolStripMenuItem
             // 
             this.allDirectionsToolStripMenuItem.Name = "allDirectionsToolStripMenuItem";
-            this.allDirectionsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.allDirectionsToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.allDirectionsToolStripMenuItem.Text = "All Directions";
             // 
             // lossyToolStripMenuItem
             // 
             this.lossyToolStripMenuItem.Name = "lossyToolStripMenuItem";
-            this.lossyToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.lossyToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.lossyToolStripMenuItem.Text = "Lossy";
             // 
             // horizontalOnlyToolStripMenuItem
             // 
             this.horizontalOnlyToolStripMenuItem.Name = "horizontalOnlyToolStripMenuItem";
-            this.horizontalOnlyToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.horizontalOnlyToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.horizontalOnlyToolStripMenuItem.Text = "Horizontal Only";
             // 
             // verticalOnlyToolStripMenuItem
             // 
             this.verticalOnlyToolStripMenuItem.Name = "verticalOnlyToolStripMenuItem";
-            this.verticalOnlyToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.verticalOnlyToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.verticalOnlyToolStripMenuItem.Text = "Vertical Only";
+            // 
+            // coinsToolStripMenuItem
+            // 
+            this.coinsToolStripMenuItem.Name = "coinsToolStripMenuItem";
+            this.coinsToolStripMenuItem.Size = new System.Drawing.Size(47, 22);
+            this.coinsToolStripMenuItem.Text = "coins";
+            this.coinsToolStripMenuItem.Click += new System.EventHandler(this.coinsToolStripMenuItem_Click);
             // 
             // openFileDialog1
             // 
@@ -416,13 +432,6 @@
             this.openFileDialog3.FileName = "openFileDialog3";
             this.openFileDialog3.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog3_FileOk);
             // 
-            // meanRemovalToolStripMenuItem
-            // 
-            this.meanRemovalToolStripMenuItem.Name = "meanRemovalToolStripMenuItem";
-            this.meanRemovalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.meanRemovalToolStripMenuItem.Text = "Mean Removal";
-            this.meanRemovalToolStripMenuItem.Click += new System.EventHandler(this.meanRemovalToolStripMenuItem_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -496,6 +505,7 @@
         private System.Windows.Forms.ToolStripMenuItem verticalOnlyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem meanRemovalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem coinsToolStripMenuItem;
     }
 }
 

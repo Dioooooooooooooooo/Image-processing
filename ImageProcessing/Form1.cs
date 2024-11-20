@@ -324,11 +324,7 @@ namespace ImageProcessing
 
         }
 
-        private void convuToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
+      
         private void smoothingToolStripMenuItem_Click(object sender, EventArgs e)
         {
             processed = new Bitmap(loaded);
@@ -362,6 +358,25 @@ namespace ImageProcessing
             processed = new Bitmap(loaded);
             BitmapFilter.EmbossLaplacian(processed);
             pictureBox2.Image = processed;
+        }
+
+        private void coinsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Bitmap pesoCoins = new Bitmap(loaded);
+            CoinDetector coinCounter = new CoinDetector();
+            var results = coinCounter.ClassifyPesoCoins(pesoCoins);
+
+            foreach (var coin in results)
+            {
+                Console.WriteLine($"{coin.Key}: {coin.Value} coins");
+            }
+            pictureBox2.Image = coinCounter.CleanImage(pesoCoins);
+
+            using (var resultDialog = new CoinResultsForm())
+            {
+                resultDialog.UpdateResults(results);
+                resultDialog.ShowDialog(this);
+            }
         }
 
         private void mirrorHorizontalToolStripMenuItem1_Click(object sender, EventArgs e)
